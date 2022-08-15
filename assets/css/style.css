@@ -1,0 +1,1200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin-top: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.my-navv {
+    background-color: white !important;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+    padding-bottom: 15px;
+}
+
+.my-navv a {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    line-height: 20px;
+    padding: 20px;
+    color: black !important;
+}
+
+.my-navv ul a:hover {
+    background-color: #282828;
+    color: #78cb36 !important;
+    opacity: 0.8;
+}
+
+.my-navv .green-text {
+    color: #78cb36 !important;
+}
+
+.home-pg {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.toggle-btn span {
+    width: 40px;
+    font-size: 90px;
+    font-weight: 300;
+    color: black;
+    line-height: 10px !important;
+}
+
+.toggle-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.relative-li {
+    position: relative;
+}
+
+.nav-iconn {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.nav-iconn a {
+    font-size: 36px !important;
+    background: none;
+}
+
+#sliderss {
+    display: block;
+}
+
+
+.iconss i {
+    padding-left: 30px;
+    font-size: 30px;
+    color: #33cad5;
+}
+
+.iconss i:hover {
+    color: #282828;
+}
+
+.basket {
+    position: relative;
+}
+
+.notify {
+    position: absolute;
+    background-color: black;
+    margin-left: 5px;
+    margin-top: -29px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.notify span {
+    font-size: 12px;
+}
+
+.heart {
+    position: relative;
+}
+
+.heart .notify {
+    margin-left: 23px;
+    margin-top: -11px;
+    display: flex;
+}
+
+.photoss {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    padding: 100px 0 30px 0;
+    background-image: url(../img/slide-medical-01.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#sliderss .textt {
+    padding-top: 150px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    line-height: 1em;
+    font-weight: 900;
+    opacity: 1;
+    transform: translateY(0%);
+    top: 0;
+    width: 70%;
+    margin-left: auto;
+}
+
+#sliderss h1 {
+    transition: ease-in-out;
+    font-size: 85px;
+    font-weight: 900;
+}
+
+#sliderss .textt h6 {
+    font-size: 20px;
+    color: #282828;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+#sliderss .textt button {
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 28px;
+    background-color: #33cad5;
+    cursor: pointer;
+    border: none;
+}
+
+#sliderss .textt button a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bottom-slid {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    border-radius: 28px;
+    width: 60px;
+    justify-content: center;
+    padding: 5px;
+    margin: auto;
+}
+
+#sliderss .textt button:hover {
+    background-color: #282828;
+}
+
+.bluee {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #33cad5;
+}
+
+.dott {
+    height: 10px;
+    width: 10px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+#shipping {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.free-shipping {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.free-shipping i {
+    padding-left: 10px;
+    color: #637381;
+    line-height: 1;
+    font-size: 50px;
+}
+
+.second-pro {
+    background-color: white;
+    padding: 70px 0;
+}
+
+.fill {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.texttt {
+    padding-left: 20px;
+}
+
+.bannerr2 div {
+    position: relative;
+    overflow: hidden !important;
+    margin: 0 auto !important;
+}
+
+.bannerr2 .texts-and-button {
+    position: absolute;
+    left: 30px;
+    bottom: 60px;
+    color: #282828;
+}
+
+.bannerr2 .texts-and-button h2 {
+    font-weight: 900;
+}
+
+
+.bannerr3 div {
+
+    position: relative;
+    overflow: hidden !important;
+    margin: 0 auto !important;
+}
+
+.bannerr3 .texts-and-button {
+    position: absolute;
+    left: 30px;
+    bottom: 60px;
+    color: #282828;
+}
+
+.bannerr3 .texts-and-button h2 {
+    font-weight: 900;
+}
+
+.bannerr {
+    position: relative;
+    overflow: hidden !important;
+    margin: 0 auto !important;
+}
+
+#bannerr {
+    padding: 70px 0;
+}
+
+#bannerr img {
+    width: 100%;
+    transition: 0.3s all ease-in-out;
+}
+
+#bannerr img:hover {
+    transform: scale(1.1);
+}
+
+.no-change:hover {
+    transform: scale(1.1);
+}
+
+.no-change {
+    transition: 0.3s all ease-in-out;
+}
+
+.texts-and-button {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    color: #ffffff;
+}
+
+#bannerr .texts-and-button button {
+    width: 150px;
+    padding: 15px 0;
+    border-radius: 28px;
+    background-color: #FAFAFA;
+    cursor: pointer;
+    border: none;
+}
+
+#bannerr .texts-and-button button:hover {
+    background-color: #000;
+    color: #FAFAFA;
+}
+
+#bannerr .texts-and-button button a:hover {
+    color: #FAFAFA;
+}
+
+#bannerr .texts-and-button button a {
+    text-decoration: none;
+    color: #282828;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.texts-and-button h1 {
+    font-size: 4.025em;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.texts-and-button h2 {
+    font-size: 2.025em;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.texts-and-button h4 {
+    font-size: 1.025em;
+    line-height: 1em;
+}
+
+.bannerr2 button {
+    width: 150px;
+    padding: 15px 0;
+    border-radius: 28px;
+    background-color: black !important;
+    cursor: pointer;
+    border: none;
+}
+
+.bannerr2 button:hover {
+    background-color: #33cad5 !important;
+    color: #FAFAFA;
+}
+
+.bannerr2 button a:hover {
+    color: #FAFAFA;
+}
+
+.bannerr2 button a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bannerr2 .first .texts-and-button {
+    left: -120px;
+    top: 30px;
+}
+
+.bannerr2 .second .texts-and-button {
+    left: 206px;
+    bottom: 50px;
+    right: 0;
+}
+
+.bannerr3 .first .texts-and-button {
+    left: -145px;
+    top: 30px;
+}
+
+.bannerr3 .second .texts-and-button {
+    left: 222px;
+    bottom: 34px;
+    right: 0;
+}
+
+.first {
+    background-color: white;
+    padding: 10px 0;
+    padding-top: 4px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first img {
+    width: 250px;
+}
+
+.first i {
+    color: #ffd400;
+}
+
+.first-pro {
+    background-color: #FAFAFA;
+    padding: 50px 0;
+}
+
+#productt h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rate {
+    padding-top: 30px;
+}
+
+#productt a {
+    text-decoration: none;
+}
+
+#banner-second {
+    padding: 70px 0;
+}
+
+#banner-second img {
+    width: 100%;
+}
+
+#stay-home {
+    background-color: white;
+    padding: 70px 0;
+}
+
+#stay-home .row {
+    align-items: center;
+}
+
+#stay-home .col-6 img {
+    width: 100%;
+}
+
+#precautions {
+    padding: 70px 0;
+}
+
+#precautions .col-3 {
+    background-color: white;
+    border: 10px solid #FAFAFA;
+}
+
+#precautions img {
+    width: 80%;
+    margin: auto;
+    height: 80%;
+}
+
+#precautions h6 {
+    padding: 30px 0 20px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+#precautions .col-3 div {
+    display: flex;
+    justify-content: center;
+}
+
+#blog-bottom {
+    padding: 70px 0;
+}
+
+#blog-bottom img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all ease-in-out;
+}
+
+#blog-bottom img:hover {
+    transform: scale(1.1);
+}
+
+#banner-second img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all ease-in-out;
+}
+
+#banner-second img:hover {
+    transform: scale(1.1);
+}
+
+#blog-bottom h4 {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+#blog-bottom h2 {
+    padding: 0 0 30px 0;
+}
+
+#blog-bottom .datee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    opacity: 0.8;
+}
+
+#blue-area {
+    background-color: #33cad5;
+    padding: 30px 0;
+}
+
+#blue-area .row {
+    align-items: center;
+}
+
+#blue-area .col-2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#blue-area .col-2 button {
+    height: 50px;
+}
+
+footer {
+    padding: 50px 0;
+}
+
+#shipping .row {
+    align-items: center;
+}
+
+.figure {
+    position: relative;
+    width: 360px;
+    max-width: 100%;
+}
+
+.figure img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+
+}
+
+.figure:hover img.image-hover {
+    opacity: 1;
+}
+
+#blue-area i {
+    font-size: 65px;
+    align-items: center;
+    color: #FAFAFA;
+}
+
+#blue-area button {
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 28px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#blue-area p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#blue-area button a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#blue-area button:hover {
+    background-color: #282828;
+    color: #FAFAFA;
+}
+
+.linkess {
+    display: flex;
+    flex-direction: column;
+    line-height: 32px;
+}
+
+.linkess a {
+    color: #282828;
+}
+
+.soc-1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.socialss h5 {
+    text-align: center;
+}
+
+.soc-1 div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #33cad5;
+    background-color: #F7F7F8;
+}
+
+.soc-1 div:hover {
+    background-color: #33cad5;
+}
+
+.soc-1 div:hover i {
+    color: #FAFAFA;
+}
+
+.socialss i {
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+    color: #33cad5;
+}
+
+.letter button {
+    width: 200px;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 28px;
+    background-color: #33cad5;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.letter input {
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+}
+
+.letter h5 {
+    text-align: center;
+}
+
+.letter button:hover {
+    background-color: #282828;
+    color: #FAFAFA;
+}
+
+.hands-glow {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.hands-glow .texts-and-button {
+    top: 30px;
+}
+
+.hands-glow h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hands-glow h3 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.shampoo {
+    position: relative;
+}
+
+.shampoo .texts-and-button {
+    top: 30px;
+}
+
+.shampoo h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #282828;
+}
+
+.shampoo h3 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #282828;
+}
+
+.test-covid {
+    position: relative;
+}
+
+.test-covid .texts-and-button {
+    top: 30px;
+    left: 30px;
+}
+
+.test-covid h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.test-covid h2 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#banner-second button {
+    width: 150px;
+    padding: 15px 0;
+    border-radius: 28px;
+    background-color: black !important;
+    cursor: pointer;
+    border: none;
+}
+
+#banner-second button:hover {
+    background-color: #33cad5 !important;
+    color: #FAFAFA;
+}
+
+#banner-second button a:hover {
+    color: #FAFAFA;
+}
+
+#banner-second button a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#banner-second .texts-and-button {
+    position: absolute;
+}
+
+#foot-end {
+    padding: 70px;
+}
+
+.foot-all {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+
+.foot-all i {
+    text-align: center;
+    font-size: 40px;
+    color: #020202
+}
+
+.foot-all i:hover {
+    color: #33cad5;
+}
+
+.betweenn {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width:1480px) {
+    .texts-and-button h1 {
+        font-size: 2.025em;
+    }
+
+    .hands-glow .texts-and-button {
+        top: 30px;
+    }
+
+    .hands-glow h4 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .hands-glow h3 {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .shampoo .texts-and-button {
+        top: 30px;
+    }
+
+    .shampoo h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #282828;
+    }
+
+    .shampoo h3 {
+        font-size: 30px;
+        font-weight: 900;
+        color: #282828;
+    }
+
+    .test-covid .texts-and-button {
+        top: 30px;
+        left: 30px;
+    }
+
+    .test-covid h4 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .test-covid h2 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    .betweenn {
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    .bannerr h1 {
+        padding-left: 30px;
+        font-size: 25px;
+    }
+
+    .bannerr h5 {
+        padding-left: 30px;
+        font-size: 25px;
+    }
+
+    .bannerr2 .first h2 {
+        font-size: 20px;
+    }
+
+    .bannerr2 .first button {
+        display: none;
+    }
+
+    .bannerr2 .second .texts-and-button {
+        left: 140px;
+        bottom: 50px;
+        right: 0;
+    }
+
+    .bannerr2 .second h2 {
+        font-size: 25px;
+    }
+
+    .bannerr2 .second button {
+        display: none;
+    }
+
+    .bannerr3 .first h2 {
+        font-size: 20px;
+    }
+
+    .bannerr3 .first h4 {
+        font-size: 15px;
+    }
+
+    .bannerr3 .first button {
+        display: none;
+    }
+
+    .bannerr3 .second .texts-and-button {
+        left: 140px;
+        bottom: 50px;
+        right: 0;
+    }
+
+    .bannerr3 .second h2 {
+        font-size: 25px;
+    }
+
+    .bannerr3 .second button {
+        display: none;
+    }
+
+    .texts-and-button h5 {
+        font-size: 1.025em;
+        right: 10px;
+    }
+
+    .texts-and-button {
+        right: 30px;
+        bottom: 30px;
+    }
+
+    #nav-area .row .col-6 {
+        display: none;
+    }
+
+    .hands-glow .texts-and-button {
+        top: 10px;
+        left: 20px;
+    }
+
+    .hands-glow h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .hands-glow h3 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .shampoo .texts-and-button {
+        top: 10px;
+        left: 20px;
+    }
+
+    .shampoo h4 {
+        font-size: 15px;
+        font-weight: 300;
+        color: #282828;
+    }
+
+    .shampoo h3 {
+        font-size: 20px;
+        font-weight: 900;
+        color: #282828;
+    }
+
+    .test-covid .texts-and-button {
+        top: 20px;
+        left: 30px;
+    }
+
+    .test-covid h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .test-covid h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+}
+
+@media (max-width:992px) {
+    #sliderss h1 {
+        font-size: 60px !important;
+    }
+
+    .texts-and-button {
+        font-size: small;
+        right: 20px;
+        bottom: 30px;
+    }
+
+    .hands-glow .texts-and-button {
+        top: 30px;
+    }
+
+    .hands-glow h4 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .hands-glow h3 {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .shampoo .texts-and-button {
+        top: 30px;
+    }
+
+    .shampoo h4 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #282828;
+    }
+
+    .shampoo h3 {
+        font-size: 30px;
+        font-weight: 900;
+        color: #282828;
+    }
+
+    .test-covid .texts-and-button {
+        top: 10px;
+        left: 20px;
+    }
+
+    .test-covid h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .test-covid h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width:768px) {
+    .photoss {
+        padding-top: 0;
+        background: #D5D9DC;
+    }
+
+    .textt {
+        width: 100%;
+        margin: auto;
+    }
+
+    .bottom-slid {
+        display: none;
+    }
+
+    .texts-and-button h1 {
+        font-size: 5.025em;
+        font-weight: 700;
+        line-height: 1em;
+    }
+
+    .texts-and-button {
+        right: 50px;
+        bottom: 50px;
+    }
+
+    footer .row div {
+        margin-bottom: 20px;
+    }
+
+    #blog-bottom .col-sm-12 {
+        margin-bottom: 40px;
+    }
+
+    .nav-iconn {
+        flex-direction: row !important;
+        justify-content: space-evenly;
+        padding-top: 30px;
+    }
+
+    .home-pg {
+        align-items: center !important;
+    }
+
+    .notify {
+        margin-left: 0;
+    }
+
+    .bannerr2 .first .texts-and-button {
+        left: -100px;
+        top: 30px;
+    }
+
+    .bannerr2 .second .texts-and-button {
+        left: 180px;
+        bottom: 50px;
+        right: 0;
+    }
+
+    .bannerr3 .first .texts-and-button {
+        left: -105px;
+        top: 20px;
+    }
+
+    .bannerr3 .second .texts-and-button {
+        left: 180px;
+        bottom: 34px;
+        right: 0;
+    }
+
+    .hands-glow .texts-and-button {
+        top: 150px;
+    }
+
+    .hands-glow h4 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .hands-glow h3 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    .shampoo .texts-and-button {
+        top: 100px;
+        left: 100px;
+    }
+
+    .shampoo h4 {
+        font-size: 30px;
+        font-weight: 500;
+        color: #282828;
+    }
+
+    .shampoo h3 {
+        font-size: 40px;
+        font-weight: 900;
+        color: #282828;
+    }
+
+    .test-covid .texts-and-button {
+        top: 30px;
+        left: 30px;
+    }
+
+    .test-covid h4 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .test-covid h2 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    #bannerr .texts-and-button button {
+        display: inline;
+        width: 150px;
+        padding: 15px 0;
+        border-radius: 28px;
+        background-color: #FAFAFA;
+        cursor: pointer;
+        border: none;
+    }
+
+    #bannerr .texts-and-button button:hover {
+        background-color: #000;
+        color: #FAFAFA;
+    }
+
+    #bannerr .texts-and-button button a:hover {
+        color: #FAFAFA;
+    }
+
+    #bannerr .texts-and-button button a {
+        text-decoration: none;
+        color: #282828;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .bannerr2 .second .texts-and-button {
+        left: 250px;
+        bottom: 50px;
+        right: 0;
+    }
+
+    .bannerr3 .second .texts-and-button {
+        left: 250px;
+        bottom: 34px;
+        right: 0;
+    }
+
+}
