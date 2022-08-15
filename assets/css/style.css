@@ -297,6 +297,7 @@ a {
     position: relative;
     overflow: hidden !important;
     margin: 0 auto !important;
+    padding: 0 !important;
 }
 
 #bannerr {
@@ -458,6 +459,7 @@ a {
 
 #banner-second img {
     width: 100%;
+    
 }
 
 #stay-home {
@@ -483,8 +485,8 @@ a {
 }
 
 #precautions img {
+    margin-left: 24px;
     width: 80%;
-    margin: auto;
     height: 80%;
 }
 
@@ -504,8 +506,9 @@ a {
 }
 
 #blog-bottom img {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
     transition: 0.3s all ease-in-out;
 }
 
@@ -697,7 +700,11 @@ footer {
     position: relative;
     justify-content: center;
     text-align: center;
+    overflow: hidden !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
 }
+
 
 .hands-glow .texts-and-button {
     top: 30px;
@@ -715,6 +722,9 @@ footer {
 
 .shampoo {
     position: relative;
+    overflow: hidden !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
 }
 
 .shampoo .texts-and-button {
@@ -735,6 +745,9 @@ footer {
 
 .test-covid {
     position: relative;
+    overflow: hidden !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
 }
 
 .test-covid .texts-and-button {
@@ -807,6 +820,12 @@ footer {
     justify-content: space-between;
 }
 
+.blog-bottom{
+    position: relative;
+    overflow: hidden !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
 
 
 @media (max-width:1480px) {
